@@ -11,4 +11,9 @@ $ source venv/bin/activate
 $ pip install django djangorestframework
 $ django-admin startproject myapi .
 $ python manage.py startapp quiz
+
+```
+
+```bash
+$ python manage.py makemigrations
 ```
