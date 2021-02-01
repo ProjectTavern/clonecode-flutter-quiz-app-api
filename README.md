@@ -33,4 +33,7 @@ $ python manage.py runserver
 
 ```bash
 $ pip install django-cors-headers gunicorn psycopg2-binary whitenoise dj-database-url
+
+# if you on mac os
+$ brew install postgresql # for psycopg2-binary
 ```
