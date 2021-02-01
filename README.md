@@ -37,3 +37,13 @@ $ pip install django-cors-headers gunicorn psycopg2-binary whitenoise dj-databas
 # if you on mac os
 $ brew install postgresql # for psycopg2-binary
 ```
+
+### Heroku python supported version
+
+> https://devcenter.heroku.com/articles/python-support
+
+- python-3.9.1 on all supported stacks
+- python-3.8.7 on all supported stacks
+- python-3.7.9 on all supported stacks
+- python-3.6.12 on all supported stacks
+- python-2.7.18 on Heroku-16 and Heroku-18 only
