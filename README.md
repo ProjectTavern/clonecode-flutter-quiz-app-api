@@ -28,3 +28,9 @@ $ python manage.py runserver
 $ source venv/bin/activate
 $ python manage.py runserver
 ```
+
+## Deploy
+
+```bash
+$ pip install django-cors-headers gunicorn psycopg2-binary whitenoise dj-database-url
+```
