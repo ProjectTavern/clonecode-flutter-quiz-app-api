@@ -47,3 +47,23 @@ $ brew install postgresql # for psycopg2-binary
 - python-3.7.9 on all supported stacks
 - python-3.6.12 on all supported stacks
 - python-2.7.18 on Heroku-16 and Heroku-18 only
+
+### Heroku migrate
+
+```bash
+$ heroku run python manage.py migrate
+$ heroku run python manage.py createsuperuser
+$ heroku open
+```
+
+### Heroku git
+
+> https://dashboard.heroku.com/apps/flutter-quiz-app-api
+
+### Heroku Service URL
+
+> https://flutter-quiz-app-api.herokuapp.com/admin
+
+### Heroku Quiz API
+
+> https://flutter-quiz-app-api.herokuapp.com/quiz/3/
